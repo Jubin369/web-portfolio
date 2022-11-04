@@ -8,7 +8,7 @@ git clone https://github.com/j471n/j471n.in.git
 
 Install all the dependencies-
 ```bash
-cd j471n.in
+cd web-portfolio
 
 # Install dependencies with pnpm
 pnpm install
@@ -42,7 +42,6 @@ After that server should be running on [localhost:3000](http://localhost:3000)
 I've given you [`.env.example`](/.env.example) as the demo. you can create your own `.env.local`
 
 - [Spotify Integration](https://j471n.in/blogs/spotify-api-nextjs)
-- [Dev.to API](https://dev.to/settings/account)
 - [Email.js](https://www.emailjs.com/docs/sdk/installation/)
 - [Revue API](https://www.getrevue.co/app/integrations)
 
