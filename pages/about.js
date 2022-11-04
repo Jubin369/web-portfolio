@@ -40,24 +40,24 @@ export default function About({ about }) {
             crossorigin="anonymous"
           />
 
-          <div class="min-h-screen ">
-            <div class="min-h-screen flex justify-center">
-              <div class="w-2/3 mx-auto">
-                <div class="flex flex-row w-full">
-                  <div class="w-2/5 px-2 py-10">
-                    <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
-                      <div class="text-gray-600 mb-2 flex justify-between">
-                        <div class="font-bold">Svjatoslav Torn</div>
-                        <div class="flex flex-row">
-                          <button class="text-blue-500 mr-2 hover:text-blue-300 transition duration-200">
-                            <i class="far fa-edit"></i>
+          <div className="min-h-screen ">
+            <div className="min-h-screen flex justify-center">
+              <div className="w-2/3 mx-auto">
+                <div className="flex flex-row w-full">
+                  <div className="w-2/5 px-2 py-10">
+                    <div className="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
+                      <div className="text-gray-600 mb-2 flex justify-between">
+                        <div className="font-bold">Svjatoslav Torn</div>
+                        <div className="flex flex-row">
+                          <button className="text-blue-500 mr-2 hover:text-blue-300 transition duration-200">
+                            <i className="far fa-edit"></i>
                           </button>
-                          <button class="text-red-500 hover:text-red-300 transition duration-200">
-                            <i class="far fa-trash-alt"></i>
+                          <button className="text-red-500 hover:text-red-300 transition duration-200">
+                            <i className="far fa-trash-alt"></i>
                           </button>
                         </div>
                       </div>
-                      <div class="text-gray-600">
+                      <div className="text-gray-600">
                         Привет Lorem ipsum dolor sit amet, consectetur
                         adipisicing elit. Ad corporis culpa deserunt,
                         dignissimos dolor esse fugit ipsam minus odit officiis
@@ -68,32 +68,32 @@ export default function About({ about }) {
                       </div>
                     </div>
                   </div>
-                  <div class="w-1/5  flex justify-center">
-                    <div class="relative flex h-full w-1 bg-green-300 items-center justify-center">
-                      <div class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-green-300 leading-none text-center z-10 bg-white font-thin">
+                  <div className="w-1/5  flex justify-center">
+                    <div className="relative flex h-full w-1 bg-green-300 items-center justify-center">
+                      <div className="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-green-300 leading-none text-center z-10 bg-white font-thin">
                         <div>20</div>
                         <div>September</div>
                       </div>
                     </div>
                   </div>
-                  <div class="w-2/5 px-2 py-10 "></div>
+                  <div className="w-2/5 px-2 py-10 "></div>
                 </div>
-                <div class="flex flex-row w-full">
-                  <div class="w-2/5 px-2 py-10"></div>
-                  <div class="w-1/5  flex justify-center">
-                    <div class="relative flex h-full w-1 bg-green-300 items-center justify-center">
-                      <div class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-green-300 leading-none text-center z-10 bg-white font-thin">
+                <div className="flex flex-row w-full">
+                  <div className="w-2/5 px-2 py-10"></div>
+                  <div className="w-1/5  flex justify-center">
+                    <div className="relative flex h-full w-1 bg-green-300 items-center justify-center">
+                      <div className="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-green-300 leading-none text-center z-10 bg-white font-thin">
                         <div>20</div>
                         <div>сентября</div>
                       </div>
                     </div>
                   </div>
-                  <div class="w-2/5 px-2 py-10 ">
-                    <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
-                      <div class="text-gray-600 mb-2 flex justify-between">
-                        <div class="font-bold">Svetlana Torn</div>
+                  <div className="w-2/5 px-2 py-10 ">
+                    <div className="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
+                      <div className="text-gray-600 mb-2 flex justify-between">
+                        <div className="font-bold">Svetlana Torn</div>
                       </div>
-                      <div class="text-gray-600">
+                      <div className="text-gray-600">
                         Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit. Corporis enim esse fuga modi quisquam veritatis?
                         Привет Lorem ipsum dolor sit amet, consectetur
@@ -107,21 +107,21 @@ export default function About({ about }) {
                     </div>
                   </div>
                 </div>
-                <div class="flex flex-row w-full">
-                  <div class="w-2/5 px-2 py-10">
-                    <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
-                      <div class="text-gray-600 mb-2 flex justify-between">
-                        <div class="font-bold">Svjatoslav Torn</div>
-                        <div class="flex flex-row">
-                          <button class="text-blue-500 mr-2 hover:text-blue-300 transition duration-200">
-                            <i class="far fa-edit"></i>
+                <div className="flex flex-row w-full">
+                  <div className="w-2/5 px-2 py-10">
+                    <div className="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
+                      <div className="text-gray-600 mb-2 flex justify-between">
+                        <div className="font-bold">Svjatoslav Torn</div>
+                        <div className="flex flex-row">
+                          <button className="text-blue-500 mr-2 hover:text-blue-300 transition duration-200">
+                            <i className="far fa-edit"></i>
                           </button>
-                          <button class="text-red-500 hover:text-red-300 transition duration-200">
-                            <i class="far fa-trash-alt"></i>
+                          <button className="text-red-500 hover:text-red-300 transition duration-200">
+                            <i className="far fa-trash-alt"></i>
                           </button>
                         </div>
                       </div>
-                      <div class="text-gray-600">
+                      <div className="text-gray-600">
                         Привет Lorem ipsum dolor sit amet, consectetur
                         adipisicing elit. Ad corporis culpa deserunt,
                         dignissimos dolor esse fugit ipsam minus odit officiis
@@ -132,22 +132,22 @@ export default function About({ about }) {
                       </div>
                     </div>
                   </div>
-                  <div class="w-1/5  flex justify-center">
-                    <div class="relative flex h-full w-1 bg-green-300 items-center justify-center">
-                      <div class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-green-300 leading-none text-center z-10 bg-white font-thin">
+                  <div className="w-1/5  flex justify-center">
+                    <div className="relative flex h-full w-1 bg-green-300 items-center justify-center">
+                      <div className="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-green-300 leading-none text-center z-10 bg-white font-thin">
                         <div>20</div>
                         <div>сентября</div>
                       </div>
                     </div>
                   </div>
-                  <div class="w-2/5 px-2 py-10 "></div>
+                  <div className="w-2/5 px-2 py-10 "></div>
                 </div>
               </div>
             </div>
           </div> */}
 
-          <section id="Experience" class="px-0 py-20 mb-0">
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <section id="Experience" className="px-0 py-20 mb-0">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <section id="work">
                 <div className="heading flex items-center pb-8">
                   <MdWork size="0.875rem" className="mr-2" />
@@ -377,7 +377,7 @@ export default function About({ about }) {
                 </div>
               </section>
               <div
-                class="my-0 mx-auto max-w-xs w-3/4"
+                className="my-0 mx-auto max-w-xs w-3/4"
                 //style={{ width: "90vw", "max-width": "1170px", width: "80vw" }}
               >
                 <div className="heading flex items-center pb-8">
@@ -387,14 +387,14 @@ export default function About({ about }) {
                   </h6>
                 </div>
                 <div
-                  class=" border-dashed m-0 px-8 py-8 relative border-r-2 ml-8 pl-0 timeline-item"
+                  className=" border-dashed m-0 px-8 py-8 relative border-r-2 ml-8 pl-0 timeline-item"
                   style={{
                     "border-bottom-right-radius": "2rem",
                   }}
                 >
                   <img
                     src="logos/freecodecamp.png"
-                    class="inline-block"
+                    className="inline-block"
                     style={{
                       "max-height": "2.5em",
                       "max-width": "2.5em",
@@ -413,7 +413,7 @@ export default function About({ about }) {
                     2017
                   </h4>
                   <p
-                    class="block text-base leading-normal mb-0"
+                    className="block text-base leading-normal mb-0"
                     style={{
                       "margin-block-start": "1em",
                       "margin-block-end": "1em",
@@ -427,7 +427,7 @@ export default function About({ about }) {
                     Online
                   </p>
                   <span
-                    class="right-0 bg-white grid place-items-center h-8 mb-0 absolute w-8"
+                    className="right-0 bg-white grid place-items-center h-8 mb-0 absolute w-8"
                     style={{
                       top: "50%",
                       transform: "translate(50%, -50%)",
@@ -440,7 +440,7 @@ export default function About({ about }) {
                 </div>
 
                 <div
-                  class=" border-dashed border-t-2 m-0 px-8 py-8 relative border-l-2 mr-8 pr-0 timeline-item"
+                  className=" border-dashed border-t-2 m-0 px-8 py-8 relative border-l-2 mr-8 pr-0 timeline-item"
                   style={{
                     "border-top-left-radius": "2rem",
                     "border-bottom-left-radius": "2rem",
@@ -448,7 +448,7 @@ export default function About({ about }) {
                 >
                   <img
                     src="icons/sreepathy.png"
-                    class="inline-block"
+                    className="inline-block"
                     style={{
                       "max-height": "2.5em",
                       "max-width": "2.5em",
@@ -467,7 +467,7 @@ export default function About({ about }) {
                     2017
                   </h4>
                   <p
-                    class="block text-base leading-normal mb-0"
+                    className="block text-base leading-normal mb-0"
                     style={{
                       "margin-block-start": "1em",
                       "margin-block-end": "1em",
@@ -482,7 +482,7 @@ export default function About({ about }) {
                     <br />
                     Vavanoor, Palakkad, India
                     <span
-                      class="left-0 bg-white grid place-items-center h-8 mb-0 absolute w-8"
+                      className="left-0 bg-white grid place-items-center h-8 mb-0 absolute w-8"
                       style={{
                         top: "50%",
                         transform: "translate(-50%, -50%)",
@@ -496,7 +496,7 @@ export default function About({ about }) {
                 </div>
 
                 <div
-                  class=" border-dashed border-t-2 m-0 px-8 py-8 relative border-r-2 ml-8 pl-0 timeline-item"
+                  className=" border-dashed border-t-2 m-0 px-8 py-8 relative border-r-2 ml-8 pl-0 timeline-item"
                   style={{
                     "border-top-right-radius": "2rem",
                     "border-bottom-right-radius": "2rem",
@@ -504,7 +504,7 @@ export default function About({ about }) {
                 >
                   <img
                     src="icons/kotakkal.png"
-                    class="inline-block mb-1"
+                    className="inline-block mb-1"
                     style={{
                       "max-height": "2.5em",
                       "max-width": "2.5em",
@@ -523,7 +523,7 @@ export default function About({ about }) {
                     2014
                   </h4>
                   <p
-                    class="block text-base leading-normal mb-0"
+                    className="block text-base leading-normal mb-0"
                     style={{
                       "margin-block-start": "1em",
                       "margin-block-end": "1em",
@@ -539,7 +539,7 @@ export default function About({ about }) {
                     Kottakkal,India
                   </p>
                   <span
-                    class="right-0 bg-white grid place-items-center h-8 mb-0 absolute w-8"
+                    className="right-0 bg-white grid place-items-center h-8 mb-0 absolute w-8"
                     style={{
                       top: "50%",
                       transform: "translate(50%, -50%)",
@@ -552,14 +552,14 @@ export default function About({ about }) {
                 </div>
 
                 <div
-                  class=" border-dashed border-t-2 m-0 px-8 py-8 relative border-l-2 mr-8 pr-0 timeline-item"
+                  className=" border-dashed border-t-2 m-0 px-8 py-8 relative border-l-2 mr-8 pr-0 timeline-item"
                   style={{
                     "border-top-left-radius": "2rem",
                   }}
                 >
                   <img
                     src="icons/ushus.png"
-                    class="inline-block rounded-full"
+                    className="inline-block rounded-full"
                     style={{
                       "max-height": "2.5em",
                       "max-width": "2.5em",
@@ -578,7 +578,7 @@ export default function About({ about }) {
                     2013
                   </h4>
                   <p
-                    class="block text-base leading-normal mb-0"
+                    className="block text-base leading-normal mb-0"
                     style={{
                       "margin-block-start": "1em",
                       "margin-block-end": "1em",
@@ -594,7 +594,7 @@ export default function About({ about }) {
                     Vattamkulam,India
                   </p>
                   <span
-                    class="left-0 bg-white grid place-items-center h-8 mb-0 absolute w-8"
+                    className="left-0 bg-white grid place-items-center h-8 mb-0 absolute w-8"
                     style={{
                       top: "50%",
                       transform: "translate(-50%, -50%)",

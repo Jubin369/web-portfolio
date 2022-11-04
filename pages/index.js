@@ -96,8 +96,8 @@ export default function Home({ skills }) {
             </motion.div>
             <motion.div className="rounded-md overflow-hidden" variants={popUp}>
               <Ripples className="w-full" color="rgba(0, 0, 0, 0.5)">
-                <section id="Experience" class="px-0 py-20 mb-0">
-                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <section id="Experience" className="px-0 py-20 mb-0">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <section id="work">
                       <div className="heading flex items-center pb-8">
                         <MdWork size="0.875rem" className="mr-2" />
@@ -335,7 +335,7 @@ export default function Home({ skills }) {
                       </div>
                     </section>
                     <div
-                      class="my-0 mx-auto max-w-xs w-3/4"
+                      className="my-0 mx-auto max-w-xs w-3/4"
                       //style={{ width: "90vw", "max-width": "1170px", width: "80vw" }}
                     >
                       <div className="heading flex items-center pb-8">
@@ -345,14 +345,14 @@ export default function Home({ skills }) {
                         </h6>
                       </div>
                       <div
-                        class=" border-dashed m-0 px-8 py-8 relative border-r-2 ml-8 pl-0 timeline-item"
+                        className=" border-dashed m-0 px-8 py-8 relative border-r-2 ml-8 pl-0 timeline-item"
                         style={{
                           "border-bottom-right-radius": "2rem",
                         }}
                       >
                         <img
                           src="logos/freecodecamp.png"
-                          class="inline-block"
+                          className="inline-block"
                           style={{
                             "max-height": "2.5em",
                             "max-width": "2.5em",
@@ -371,7 +371,7 @@ export default function Home({ skills }) {
                           2017
                         </h4>
                         <p
-                          class="block text-base leading-normal mb-0"
+                          className="block text-base leading-normal mb-0"
                           style={{
                             "margin-block-start": "1em",
                             "margin-block-end": "1em",
@@ -385,7 +385,7 @@ export default function Home({ skills }) {
                           Online
                         </p>
                         <span
-                          class="right-0 bg-white grid place-items-center h-8 mb-0 absolute w-8"
+                          className="right-0 bg-white grid place-items-center h-8 mb-0 absolute w-8"
                           style={{
                             top: "50%",
                             transform: "translate(50%, -50%)",
@@ -398,7 +398,7 @@ export default function Home({ skills }) {
                       </div>
 
                       <div
-                        class=" border-dashed border-t-2 m-0 px-8 py-8 relative border-l-2 mr-8 pr-0 timeline-item"
+                        className=" border-dashed border-t-2 m-0 px-8 py-8 relative border-l-2 mr-8 pr-0 timeline-item"
                         style={{
                           "border-top-left-radius": "2rem",
                           "border-bottom-left-radius": "2rem",
@@ -406,7 +406,7 @@ export default function Home({ skills }) {
                       >
                         <img
                           src="icons/sreepathy.png"
-                          class="inline-block"
+                          className="inline-block"
                           style={{
                             "max-height": "2.5em",
                             "max-width": "2.5em",
@@ -425,7 +425,7 @@ export default function Home({ skills }) {
                           2017
                         </h4>
                         <p
-                          class="block text-base leading-normal mb-0"
+                          className="block text-base leading-normal mb-0"
                           style={{
                             "margin-block-start": "1em",
                             "margin-block-end": "1em",
@@ -440,7 +440,7 @@ export default function Home({ skills }) {
                           <br />
                           Vavanoor, Palakkad, India
                           <span
-                            class="left-0 bg-white grid place-items-center h-8 mb-0 absolute w-8"
+                            className="left-0 bg-white grid place-items-center h-8 mb-0 absolute w-8"
                             style={{
                               top: "50%",
                               transform: "translate(-50%, -50%)",
@@ -454,7 +454,7 @@ export default function Home({ skills }) {
                       </div>
 
                       <div
-                        class=" border-dashed border-t-2 m-0 px-8 py-8 relative border-r-2 ml-8 pl-0 timeline-item"
+                        className=" border-dashed border-t-2 m-0 px-8 py-8 relative border-r-2 ml-8 pl-0 timeline-item"
                         style={{
                           "border-top-right-radius": "2rem",
                           "border-bottom-right-radius": "2rem",
@@ -462,7 +462,7 @@ export default function Home({ skills }) {
                       >
                         <img
                           src="icons/kotakkal.png"
-                          class="inline-block mb-1"
+                          className="inline-block mb-1"
                           style={{
                             "max-height": "2.5em",
                             "max-width": "2.5em",
@@ -481,7 +481,7 @@ export default function Home({ skills }) {
                           2014
                         </h4>
                         <p
-                          class="block text-base leading-normal mb-0"
+                          className="block text-base leading-normal mb-0"
                           style={{
                             "margin-block-start": "1em",
                             "margin-block-end": "1em",
@@ -497,7 +497,7 @@ export default function Home({ skills }) {
                           Kottakkal,India
                         </p>
                         <span
-                          class="right-0 bg-white grid place-items-center h-8 mb-0 absolute w-8"
+                          className="right-0 bg-white grid place-items-center h-8 mb-0 absolute w-8"
                           style={{
                             top: "50%",
                             transform: "translate(50%, -50%)",
@@ -510,14 +510,14 @@ export default function Home({ skills }) {
                       </div>
 
                       <div
-                        class=" border-dashed border-t-2 m-0 px-8 py-8 relative border-l-2 mr-8 pr-0 timeline-item"
+                        className=" border-dashed border-t-2 m-0 px-8 py-8 relative border-l-2 mr-8 pr-0 timeline-item"
                         style={{
                           "border-top-left-radius": "2rem",
                         }}
                       >
                         <img
                           src="icons/ushus.png"
-                          class="inline-block rounded-full"
+                          className="inline-block rounded-full"
                           style={{
                             "max-height": "2.5em",
                             "max-width": "2.5em",
@@ -536,7 +536,7 @@ export default function Home({ skills }) {
                           2013
                         </h4>
                         <p
-                          class="block text-base leading-normal mb-0"
+                          className="block text-base leading-normal mb-0"
                           style={{
                             "margin-block-start": "1em",
                             "margin-block-end": "1em",
@@ -552,7 +552,7 @@ export default function Home({ skills }) {
                           Vattamkulam,India
                         </p>
                         <span
-                          class="left-0 bg-white grid place-items-center h-8 mb-0 absolute w-8"
+                          className="left-0 bg-white grid place-items-center h-8 mb-0 absolute w-8"
                           style={{
                             top: "50%",
                             transform: "translate(-50%, -50%)",
