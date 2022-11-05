@@ -3,7 +3,7 @@
 
 Clone the repository-
 ```bash
-git clone https://github.com/j471n/j471n.in.git
+git clone https://github.com/Jubin369/web-portfolio.git
 ```
 
 Install all the dependencies-
