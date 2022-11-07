@@ -1,12 +1,12 @@
 module.exports = [
   {
     id: 1,
-    name: "test",
-    coverURL: "https://imgur.com/fVbFbqw.png",
-    description: "test",
-    githubURL: "https://github.com/",
-    previewURL: "",
-    tools: ["HTML", "CSS", "JS", "React.js"],
+    name: "Notes",
+    coverURL: "https://imgur.com/DOKs0aY.png",
+    description: "Add Notes...",
+    githubURL: "https://github.com/Jubin369/react-nextjs-notes",
+    previewURL: "https://react-nextjs-notes.vercel.app/",
+    tools: ["Nextjs", "JQuery", "JS", "MongoDb"],
     pinned: true,
   },
 ];
