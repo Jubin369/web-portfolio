@@ -65,6 +65,17 @@ body::-webkit-scrollbar {
 * {
   scroll-margin-top: 80px;
 }
+
+.ml2 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
 @media screen and (max-width: 640px) {
   * {
     scroll-margin-top: 60px;

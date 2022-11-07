@@ -4,6 +4,9 @@ import SkillSection from "@components/Home/SkillSection";
 // Page Components END------------
 
 import Image from "next/image";
+import $ from "jquery";
+import { useEffect } from "react";
+import anime from "animejs";
 import Metadata from "@components/MetaData";
 import Contact from "@components/Contact";
 import {
@@ -25,6 +28,46 @@ import pageMeta from "@content/meta";
 import { MdLocationOn, MdWork, MdSchool } from "react-icons/md";
 
 export default function Home({ skills }) {
+  useEffect(() => {
+    // const script = document.createElement("script");
+
+    // script.src =
+    //   "https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js";
+    // script.async = true;
+
+    // document.body.appendChild(script);
+
+    let ml = { timelines: {} };
+    $(".ml2").each(function () {
+      $(this).html(
+        $(this)
+          .text()
+          .replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>")
+      );
+    });
+
+    ml.timelines["ml2"] = anime
+      .timeline({ loop: true })
+      .add({
+        targets: ".ml2 .letter",
+        scale: [4, 1],
+        opacity: [0, 1],
+        translateZ: 0,
+        easing: "easeOutExpo",
+        duration: 950,
+        delay: function (el, i) {
+          return 70 * i;
+        },
+      })
+      .add({
+        targets: ".ml2",
+        opacity: 0,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 1000,
+      });
+  });
+
   return (
     <>
       <Metadata
@@ -58,26 +101,32 @@ export default function Home({ skills }) {
 
             <div className="w-full flex flex-col p-5 gap-3 select-none text-center ">
               <div className="flex flex-col gap-1">
-                <motion.h1
+                {/* <motion.h1
                   variants={opacityVariant}
                   className="text-5xl lg:text-6xl font-bold font-sarina"
-                >
-                  Jubin Ayoob
-                </motion.h1>
-                <motion.p
+                > */}
+                <h1 className="text-5xl lg:text-6xl font-bold font-sarina ml2">
+                  Jubin Ayoob{" "}
+                </h1>
+                {/* </motion.h1> */}
+                {/* <motion.p
                   variants={opacityVariant}
-                  className="font-medium text-xs md:text-sm lg:text-lg text-gray-500"
-                >
-                  React Developer, Competitive Programmer
-                </motion.p>
+                  className="font-medium text-xs md:text-sm lg:text-lg text-gray-500 ml2"
+                > */}
+                <span className="font-medium text-xs md:text-sm lg:text-lg text-gray-500 ml2">
+                  React Developer Competitive Programmer
+                </span>
+                {/* </motion.p> */}
               </div>
 
-              <motion.p
+              {/* <motion.p
                 variants={opacityVariant}
                 className=" text-slate-500 dark:text-gray-300 font-medium text-sm md:text-base text-center"
-              >
-                I am currently working in software company Cloodot.
-              </motion.p>
+              > */}
+              <span className=" text-slate-500 dark:text-gray-300 font-medium text-sm md:text-base text-center ml2">
+                I am currently working in software company Cloodot
+              </span>
+              {/* </motion.p> */}
             </div>
 
             <motion.div

@@ -6,6 +6,7 @@ specifiers:
   '@next/bundle-analyzer': ^12.1.6
   '@tailwindcss/line-clamp': ^0.4.0
   '@tailwindcss/typography': ^0.5.2
+  animejs: ^3.2.1
   autoprefixer: ^10.4.7
   dompurify: ^2.3.6
   eslint: 8.14.0
@@ -18,6 +19,7 @@ specifiers:
   hastscript: ^7.0.2
   highlight.js: ^11.5.1
   html-react-parser: ^1.4.12
+  jquery: ^3.6.1
   next: ^12.1.6
   next-mdx-remote: ^4.0.3
   next-pwa: ^5.5.2
@@ -55,6 +57,7 @@ dependencies:
   '@fullhuman/postcss-purgecss': 4.1.3_postcss@8.4.14
   '@next/bundle-analyzer': 12.1.6
   '@tailwindcss/line-clamp': 0.4.0_tailwindcss@3.1.3
+  animejs: 3.2.1
   dompurify: 2.3.8
   firebase-admin: 10.3.0
   framer-motion: 6.3.11_react-dom@18.1.0+react@18.1.0
@@ -64,6 +67,7 @@ dependencies:
   hastscript: 7.0.2
   highlight.js: 11.5.1
   html-react-parser: 1.4.14_react@18.1.0
+  jquery: 3.6.1
   next: 12.1.6_react-dom@18.1.0+react@18.1.0
   next-mdx-remote: 4.0.3_react-dom@18.1.0+react@18.1.0
   next-pwa: 5.5.4_next@12.1.6
@@ -2400,6 +2404,10 @@ packages:
       uri-js: 4.4.1
     dev: false
 
+  /animejs/3.2.1:
+    resolution: {integrity: sha512-sWno3ugFryK5nhiDm/2BKeFCpZv7vzerWUcUPyAZLDhMek3+S/p418ldZJbJXo5ZUOpfm2kP2XRO4NJcULMy9A==}
+    dev: false
+
   /ansi-regex/5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
     engines: {node: '>=8'}
@@ -4398,6 +4406,10 @@ packages:
     engines: {node: '>=10.13.0 < 13 || >=13.7.0'}
     dependencies:
       '@panva/asn1.js': 1.0.0
+    dev: false
+
+  /jquery/3.6.1:
+    resolution: {integrity: sha512-opJeO4nCucVnsjiXOE+/PcCgYw9Gwpvs/a6B1LL/lQhwWwpbVEVYDZ1FokFr8PRc7ghYlrFPuyHuiiDNTQxmcw==}
     dev: false
 
   /js-tokens/4.0.0:
