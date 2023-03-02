@@ -9,4 +9,14 @@ module.exports = [
     tools: ["Nextjs", "JQuery", "JS", "MongoDb"],
     pinned: true,
   },
+  {
+    id: 2,
+    name: "Rick and Morty ",
+    coverURL: "https://imgur.com/2yYGE2Z.png",
+    description: "Rick and Morty graphql API...",
+    githubURL: "https://github.com/Jubin369/turbolab",
+    previewURL: "https://turbolab.vercel.app/",
+    tools: ["Reactjs", "Graphql", "Chakra-ui", "Apollo Graphql"],
+    pinned: true,
+  },
 ];
