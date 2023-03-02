@@ -19,4 +19,14 @@ module.exports = [
     tools: ["Reactjs", "Graphql", "Chakra-ui", "Apollo Graphql"],
     pinned: true,
   },
+  {
+    id: 3,
+    name: "Ecommercial-nextjs ",
+    coverURL: "https://imgur.com/bgxZZAf.png",
+    description: "commercial website home page design.",
+    githubURL: "https://github.com/Jubin369/lilac-machine-test",
+    previewURL: "http://lilac-interview.vercel.app/",
+    tools: ["Nextjs", "Chakra-ui"],
+    pinned: true,
+  },
 ];
